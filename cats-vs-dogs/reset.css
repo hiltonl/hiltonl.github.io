@@ -74,3 +74,42 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 
+/* END OF RESET - START STYLES HERE!!!!-------------------------*/
+body {
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+header {position: relative; height: 250px;background-color: yellow;}
+
+.logo {position: absolute;top:50px;left:100px;background-color: blue;}
+
+nav li {float:left;width: 80px;}
+
+nav {
+	position:absolute;
+	top:140px;
+	left:100px;
+}
+
+article {
+	float: left;
+	width: 300px;
+	background-color: red;
+}
+
+
+footer {
+	clear:both;
+}
+
+
+
+
+
+
+
+
+
+
