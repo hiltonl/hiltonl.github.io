@@ -76,39 +76,106 @@ html[xmlns] .clearfix { display: block; }
 
 /* END OF RESET - START STYLES HERE!!!!-------------------------*/
 body {
-	width: 960px;
+	width: 1100px;
 	margin: 0 auto;
 }
 
 
-header {position: relative; height: 250px;background-color: yellow;}
+header {
+	position: relative; 
+	height: 200px;
+	background-color: -;
+}
 
-.logo {position: absolute;top:50px;left:100px;background-color: blue;}
+.logo {
+	position: absolute;
+	top:20px;
+	left:360px;
+	background-color: -;
+}
 
-nav li {float:left;width: 80px;}
+nav li {
+	float:left;
+	width: 100px;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	list-style-type: disc;
+
+}
 
 nav {
 	position:absolute;
-	top:140px;
-	left:100px;
+	top:130px;
+	left:330px;
+	
 }
 
 article {
 	float: left;
-	width: 300px;
-	background-color: red;
+	width: 510px;
+	background-color:-;
+	padding: 20px;
+	border-bottom: 3px solid black;
 }
 
+img.dog {
+	width: 500px;
+	height: 400px;
+}
+
+img.cat {
+	width: 400px;
+	height: 400px;
+}
+
+h1,h2 {
+	font-family: georgia, serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height:2em;
+
+}
+
+body {
+	font-family: georgia, serif;
+	line-height: 1.4em;
+
+
+}
 
 footer {
-	clear:both;
+	position: relative;
+		height: 10px;
+		top: 10px;
+		left: 20px;
+	padding-bottom: 10px;
+	clear: both;
+	font-size: 13px;
+	}
+
+footer a{
+
+	color:red;
 }
 
+#wiki {
+	float:left;
+	text-align: left;
+	width: 900px;
+	padding-top: 15px;
 
+}
 
+#copyright {
+	float:left;
+	text-align: right;
+	padding-top: 15px;
 
-
-
+}
 
 
 

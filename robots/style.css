@@ -50,3 +50,21 @@ table {
 	border-spacing: 0;
 }
 
+/* END OF RESET - START STYLES HERE!!!!-------------------------*/
+
+header {
+	position: relative; 
+	height: 150px;
+	background-color: #ecf2d3;
+}
+
+.logo {
+	position: absolute;
+	top:20px;
+	left:20px;
+	width: 250px;
+	height: 110px;
+	background-color: -;
+}
+
+
