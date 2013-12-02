@@ -78,37 +78,69 @@ html[xmlns] .clearfix { display: block; }
 
 
 
-body {
-	width: 90%;
-	margin: 0 auto;
+
+
+header {
+	position:fixed;
+	height:200px; 
+	width:100%;
+	background-color: black; 
+	margin:0 auto; 
+	margin-top: 0px;
+	padding:0px;
 
 }
 
-#content {
-	overflow: auto;
-}
 
-#nav, #footer {
-	background-color: #efefef;
-	width: 100%;
-	margin:10px;
-	padding: 0.5em 0;
-	color: gray;
-	font-family: 'Poiret One', cursive;
+#nav {
+	
+	padding-top:50px; 
+	height:0px; 
+	width:100%; 
+	margin: 0 auto; 
+	float:left;
+	
 
 }
 
-li {
+.menu {
+	position:relative;
+	left: 90%; 
+	display:block; 
+	list-style-type:none;
+	margin:0px; 
 	padding: 5px;
 	display: inline;
 	
 }
 
-li a {
-	color: gray;  
-    text-decoration:none; 
+
+
+.logo {
+	position:relative;
+	top:10%;
+	left:60%;
+	}
+
+.cover {
+	position: relative; 
+	top:200px;
+	left:300px;
 }
 
+.image {
+	position: relative; 
+	top:200px;
+	left:100px;
+}
 
-
-
+footer {
+	position: fixed; 
+	top:600px;
+	left:0px;
+	height: 30px;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	background-color: #;
+	font-size: 1em;
+}
